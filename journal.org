@@ -1,0 +1,20 @@
+#+title: Journal
+
+* 2023-10-12
+  - did not sleep at all, just wanted to get the advanced calc midterm done and sleep
+  - got the operations research midterm and assignment mark back, not terrible, not great
+  - only solved one question during the Putnam practice
+  - advanced calc midterm were not great, clearly not doing analysis type questions frequently
+    has a cost
+  - got jealous for something very stupid
+
+I have not done anything useful or written any substantial code for almost 2 weeks now. In some sense,
+I feel defeacted.
+
+[[https://youtu.be/v7qZJ31S6M0][This video]] is an interesting take on psychological addiction. I'm not psychologically
+addicted to canabis but I must admit fool myself claiming I can stop some unspecified activity whenever
+I want yet I know such activity is basically my norm now.
+
+Did messaged someone eventually, that was good.
+
+Need to figure out what's the best practice for linebreaks in org mode.
