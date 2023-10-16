@@ -1,20 +1,22 @@
 #+title: Journal
 
-* 2023-10-12
+* <2023-10-13 Fri>
   - did not sleep at all, just wanted to get the advanced calc midterm done and sleep
   - got the operations research midterm and assignment mark back, not terrible, not great
   - only solved one question during the Putnam practice
-  - advanced calc midterm were not great, clearly not doing analysis type questions frequently
-    has a cost
+  - advanced calc midterm were not great, clearly not doing analysis type questions frequently has a cost
   - got jealous for something very stupid
 
 I have not done anything useful or written any substantial code for almost 2 weeks now. In some sense,
 I feel defeacted.
 
-[[https://youtu.be/v7qZJ31S6M0][This video]] is an interesting take on psychological addiction. I'm not psychologically
-addicted to canabis but I must admit fool myself claiming I can stop some unspecified activity whenever
-I want yet I know such activity is basically my norm now.
+[[https://youtu.be/v7qZJ31S6M0][This video]] is an interesting take on psychological addiction. I'm not psychologically addicted to canabis but I must admit fool myself claiming I can stop some unspecified activity whenever I want yet I know such activity is basically my norm now.
 
 Did messaged someone eventually, that was good.
 
 Need to figure out what's the best practice for linebreaks in org mode.
+
+* <2023-10-15 Sun>
+The company VeriSign, which controls two of the root DNS resolvers, was a spin off from RSA securities, a company known for incorperating backdoor into their products. They sold off their TLS certificate business in early 2000s, which eventually became DigiCert. If you want to believe in conspiracy theories, then this is a great place to start.
+
+Yes, the RSA security was founded by the three co-authors that invented the RSA encryption scheme.
