@@ -7,8 +7,7 @@
   - advanced calc midterm were not great, clearly not doing analysis type questions frequently has a cost
   - got jealous for something very stupid
 
-I have not done anything useful or written any substantial code for almost 2 weeks now. In some sense,
-I feel defeacted.
+I have not done anything useful or written any substantial code for almost 2 weeks now. In some sense, I feel defeacted.
 
 [[https://youtu.be/v7qZJ31S6M0][This video]] is an interesting take on psychological addiction. I'm not psychologically addicted to canabis but I must admit fool myself claiming I can stop some unspecified activity whenever I want yet I know such activity is basically my norm now.
 
@@ -20,3 +19,16 @@ Need to figure out what's the best practice for linebreaks in org mode.
 The company VeriSign, which controls two of the root DNS resolvers, was a spin off from RSA securities, a company known for incorperating backdoor into their products. They sold off their TLS certificate business in early 2000s, which eventually became DigiCert. If you want to believe in conspiracy theories, then this is a great place to start.
 
 Yes, the RSA security was founded by the three co-authors that invented the RSA encryption scheme.
+
+* <2023-10-16 Mon>
+- TAs claimed `The submitted a1.c program doesn't compile` when it never stated that the file needs to be named specifically and `make` does work
+  - need to talk to them on <2023-10-18 Wed> about this, reeeeee
+
+* <2023-10-17 Tue>
+The internet is now properly old, even the world wide web cannot be described as young anymore. This is reflected in the architecture of the internet. Many of the designs seem bizarre but if you map them onto the world of 1980s, everything will seem more normal.
+
+- only organizations can afford a network, hence domain names are mostly for organizations
+- encryption wasn't strictly necessary since most of the traffic was meant to travel within the organization
+
+* <2023-10-18 Wed>
+- I am a completely different person when I am on caffeine versus when I'm not
