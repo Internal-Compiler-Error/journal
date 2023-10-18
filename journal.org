@@ -32,3 +32,39 @@ The internet is now properly old, even the world wide web cannot be described as
 
 * <2023-10-18 Wed>
 - I am a completely different person when I am on caffeine versus when I'm not
+
+Someone dismissed theoretical work in comptuer science today; I get slightly depressed whenever people do that. Without advancement in theory, many things people take granted simply can't work.
+
+Modern distributed system is built on theoretical algorithms like Paxos, Raft, and Zab. Furthermore, without a theoretical framework, how can you even convince yourself that they actually work as expected?
+
+While conceptually flawed, the popularity of NoSQL database today can be traced back to the famous Google paper that introduced the CAP theorem.
+
+How many people uses Google Docs daily without considering the Operation Transformation (OT) algorithm it uses to merge everybody's changes and maintain a consistent view? A related area of research is Conflict-free Replicated Data Types (CRDT), which allows for states to be consistently maintained without the use of a central server (most OT requires a central server). A key insight in CRDT is we want the merge operation to be commutative, if you dismiss theory, you lose the ability to describe what you want.
+
+Even langagues like Java traces their partial origin to the work of Norwegian mathematicians in the 60s for the language SIMULA. Their choice of vocabulary still affect us today, a class is called a class because they were model after classes in mathematics, a collection of structures fulfilling some properties.
+
+--------------------------------------------------------------------------------
+
+I'm really starting to think async IO and distributed systems share many similarities, and perhaps we can port our results in distributed to how we design for async io.
+
+While it may seem there is a ditchotomy between compute and io, it's closer to RPC than people think. Non trivial IO cannot happen automagically, some computation happens on the IO devices, such as SDD memory controllers, and the result of the operation is communicated to you via interrupts.
+
+Of course, a major class of problem in distributed computing is not relavent in async io, the communication between devices and CPU can be seem as always reliable for practical purposes. However, the issue of consistency seems to be applicable to both. This is motivated by my thoughts around cancellation in io_uring.
+
+Suppose you issue a read, then later cancel the read, perhaps you wanted to race between reads from two different sources, you can't just deallocate the buffer because the device/kernel doesn't know your intention. It will try to write buffer, which now contains content that isn't used for the IO. This is basically the issue of consistency.
+
+I really want the proactor style of IO of io_uring to work in Rust, yet it seems the ability to cancel any future by simply no longer calling `poll()` on it doesn't pair with proactors well.😭
+
+--------------------------------------------------------------------------------
+
+I really like the Rust community, I got introduced to so many new areas and concepts by them.
+- category theory
+  - algebraic geometry
+  - formal methods
+  - intuitionistic logic
+- more systematic view of async
+- ML series of languages
+
+I don't think you can get the same with Java, the Java community by comparision doesn't inspire curiosity much. When you stop desiring for a better world (both in better programs and a better world politically) life loses it purpose.
+
+- I really should stop procrastinating and actually finish my 4900 report.
