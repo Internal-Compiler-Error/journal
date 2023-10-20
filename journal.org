@@ -68,3 +68,39 @@ I really like the Rust community, I got introduced to so many new areas and conc
 I don't think you can get the same with Java, the Java community by comparision doesn't inspire curiosity much. When you stop desiring for a better world (both in better programs and a better world politically) life loses it purpose.
 
 - I really should stop procrastinating and actually finish my 4900 report.
+
+* <2023-10-19 Thu>
+- mostly done theory of comp assignment
+  - easier than expected
+  - the moment when I realized it's basically using DFS to handle non determinism was very cool
+- talked to a friend, felt nice
+- felt energetic today, that was good
+- roommate was coughing loudly, that's not good 😨
+
+Why do humans form attractions? Sometimes I wish such thing never existed so I can't get distracted by such nonsense.
+- did see that person today but didn't get to talk to them in any meanful way
+
+--------------------------------------------------------------------------------
+
+It's hard to believe that I'm in 4th year already... I've stated in many places that I felt I wasted my first two years. I never had the illusion that university will provide me with skills directly applicable to software jobs, I don't actually want/care those skills in an academic setting.
+
+The courses that I felt were the culmination of an undergrad degree in CS and math includes
+1. theory of computation
+2. compilers
+3. real analysis
+4. group and ring theory
+
+Taking theory of comp and real analysis this semester, I feel quite disappointed. It's mid way and the church turing thesis, and halting problem are still not covered. Real analysis is FUCKING JOKE, I CAN'T FUCKING BELEIVE THEY STILL HAVEN'T COVERED DEDEKIND CUT OR CAUCHY SEQUENCE. I also thought they are gonna show Cantor's diagonal proof of the cardinality of reals (which actually I was already shown the proof in CIS2910 in first year!).
+
+My opinion on the school has never been constant. I belive a lot of courses are complete jokes, but I cope myself with the community vibe.
+
+Maybe I'll form a longer piece about what I think of school later, but not now. Can't be bothered.
+
+--------------------------------------------------------------------------------
+
+4 years ago, I didn't understand category theory, now, I still don't. Although progress is being made.
+
+I don't think it's a good idea for this thing to just being dumping ground for negative energy so maybe I'll stop.
+
+
+- I really need to figure out how to enable spell check in doom emacs.
